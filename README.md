@@ -23,6 +23,16 @@ The same code that ran on IBM QUBS today will run on the first quantum node on M
 
 Humanity becomes multi-planetary only when ethics becomes quantum-native.
 
-**Verification link** → https://quantum.ibm.com/jobs/598eb802-0a56-428c-aec0-b23edca61e3c
+### Key Details
+- **State**: |W₈⟩ = 1/√8 (|10000000⟩ + |01000000⟩ + |00100000⟩ + |00010000⟩ + |00001000⟩ + |00000100⟩ + |00000010⟩ + |00000001⟩)  
+- **Backend**: ibm_qubs (127-qubit Eagle-class, heavy-hex connectivity)  
+- **Shots**: 8192  
+- **Fidelity Estimate**: ~70–80% (from symmetric peaks; no mitigation used)  
 
-#Martian #MarsColonization #QuantumEthics #MultiPlanetary
+### Verification
+Anyone with a free IBM Quantum account can retrieve the raw counts:
+- Direct link: https://quantum.ibm.com/jobs/598eb802-0a56-428c-aec0-b23edca61e3c  
+- Qiskit one-liner:
+```python
+from qiskit_ibm_provider import IBMProvider
+print(IBMProvider().job('598eb802-0a56-428c-aec0-b23edca61e3c').result().get_counts())
