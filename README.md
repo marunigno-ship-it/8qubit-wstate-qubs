@@ -22,3 +22,10 @@ Humanity becomes truly multi-planetary only when ethics becomes quantum-native.
 **Verification link** → https://quantum.ibm.com/jobs/598eb802-0a56-428c-aec0-b23edca61e3c
 
 #QuantumEthics #HumanityFirst #EarthAndBeyond
+
+
+## Run it yourself in 10 seconds
+
+```bash
+pip install qiskit[visualization]    # one-time only
+python w_state_circuit.py
