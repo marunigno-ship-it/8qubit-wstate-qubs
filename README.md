@@ -34,7 +34,9 @@ https://github.com/marunigno-ship-it/QERRA-v2
 - [16-qubit W-state](https://github.com/marunigno-ship-it/16qubit-wstate-qubs)  
 - [32-qubit W-state](https://github.com/marunigno-ship-it/32qubit-wstate-qubs) – latest scaling benchmark
 
-**License:** Apache-2.0 (same as main project)
+License: AGPL-3.0
+
+
 
 #QuantumEthics #HumanityFirst #EarthAndBeyond #QuantumRobotics #QAI #IBMQuantum #EthicalAI #QuantumEntanglement #Greece
 
